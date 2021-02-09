@@ -1,4 +1,4 @@
 # RePyPlace
-personal practice
+A text replacement program made as practice with Python
 
-Idea: text replacement
+if you want to use this, by all means do.
