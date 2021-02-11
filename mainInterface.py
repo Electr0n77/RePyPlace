@@ -19,6 +19,9 @@ replacementWord = tk.StringVar()
 
 #the main fucker
 def Replace():
+	#Get rid of any previous replacements
+	theNewText.delete("0.0", tk.END)
+
 	#converting tkinter shit into strings
 	entireText = theWholeText.get()
 	getReplacedWord = replacedWord.get()
